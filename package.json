@@ -1,0 +1,16 @@
+{
+  "name": "automation-exercise-cypress",
+  "version": "1.0.0",
+  "description": "TCC - Automação de Testes na Camada de Interface (Web) - Automation Exercise",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:chrome": "cypress run --browser chrome"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "cypress": "^13.17.0",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
